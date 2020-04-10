@@ -1,5 +1,6 @@
 # javascript-game
 > dumb fighting game with destructible terrain or something
+
 Using Phaser as Game Engine
 
 ## Setup 
