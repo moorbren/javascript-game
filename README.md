@@ -3,6 +3,8 @@
 
 Using Phaser as Game Engine, see documentation [here](https://phaser.io/tutorials/making-your-first-phaser-3-game/part1). 
 
+Using phaser-ui-tools for basic UI components, see documentation [here](https://jsfehler.github.io/phaser-ui-tools/)
+
 ## Setup 
 
 Install node packages with: 
