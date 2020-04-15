@@ -1,0 +1,16 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+		"targets": {
+			"node": "current"	
+		}
+	}]],
+	"plugins": [ 
+		//fixes an issue regarding async functions as event listeners
+		//"regeneratorRuntime is not defined"
+		["@babel/plugin-transform-runtime",
+			{
+				"regenerator": true
+			}
+	]]
+}

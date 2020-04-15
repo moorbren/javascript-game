@@ -1,0 +1,8 @@
+{
+	"verbose": false,
+	"ignore": ["assets", "node_modules", "server/public"],
+	"events": {
+		"restart": "npm run build"
+	}
+	  
+}

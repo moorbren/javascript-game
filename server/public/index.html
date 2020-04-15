@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Javascript Game</title>
+
+        <style link="style.css"></style>
+        <script src="dist.dev.js" defer></script>
+    </head>
+
+    <body>
+        <div id="control-panels">
+            <!-- Debug control panels should be structured like 'debug-SCENE_KEY' -->
+            <!--    Using a different scene key than the one attached to a scene will result in the control panel not being shown during that scene. -->
+
+            <div id="debug-battle" class="hidden">
+                <button id="reset-player">Reset Player Pos</button>
+                <button id="mute-game">Mute</button>
+            </div>
+
+        </div>
+
+        <p>Server functioning</p>
+    </body>
+
+    <div id="control-table">
+        <h3>Controls</h3>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td>Bind</td>
+                    <td>Description</td>
+                </tr>
+                
+                <tr>
+                    <td>Left/Right/Up/Down</td>
+                    <td>Move character</td>
+                </tr>
+
+                <tr>
+                    <td>Shift</td>
+                    <td>Sprint</td>
+                </tr>
+
+                <tr>
+                    <td>A</td>
+                    <td>Slide</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</html>
